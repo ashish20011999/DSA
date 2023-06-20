@@ -4,7 +4,9 @@ public class Palindrome {
     public static void main(String args[])
     {
         int x = 10;
-        System.out.println(CheckIfPalindrome(String.valueOf(x)));
+        String string = "a";
+//        System.out.println(CheckIfPalindrome(String.valueOf(x)));
+        System.out.println(CheckIfPalindrome(string));
     }
     static void removeSpecialCharacter(String s)
     {
@@ -24,7 +26,6 @@ public class Palindrome {
                 i--;
             }
         }
-        System.out.print(s);
     }
     public static boolean CheckIfPalindrome(String number)
     {   removeSpecialCharacter(number);
