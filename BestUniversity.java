@@ -133,27 +133,10 @@ public class BestUniversity {
         if(country== "Norway") {
             return "University of Bergen";
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   return " ";
+        return " ";
     }
 
     public static void main(String[] args) throws IOException {
-        System.out.println(bestUniversity1m("India"));
+        System.out.println(bestUniversity1("India"));
     }
 }
